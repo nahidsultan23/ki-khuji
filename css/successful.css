@@ -1,0 +1,27 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+#successful{
+	margin: auto;
+	text-align: center;
+	margin-top: 10%;
+	font-size: 20px;
+	width: 50%;
+}
+
+#description{
+	color: green;
+}
+
+#backLink{
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#backLink:hover{
+	font-weight: bold;
+}

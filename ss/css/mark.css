@@ -1,0 +1,118 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+#errorRow{
+	text-align: center;
+	font-size: 20px;
+	color: red;
+}
+
+#map{
+	height: 55%;
+	width: 50%;
+	margin: auto;
+}
+
+#searchPlace{
+	margin: auto;
+	width: 50%;
+}
+
+#position{
+	margin: auto;
+	width: 50%;
+}
+
+#searchAdTable{
+	margin: auto;
+	border-spacing: 50px 30px;
+	text-align: center;
+}
+
+#topLine{
+	font-size: 25px;
+	font-weight: bold;
+	color: green;
+}
+
+#searchAdTable a{
+	background-color: #9c851c;
+	box-shadow: 0 5px 0 #2a250d;
+	color: white;
+	padding: 8px 10px;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 4px;
+}
+
+#searchAdTable a:hover{
+	background-color: #4e4413;
+}
+
+#searchAdTable a:active{
+	box-shadow: none;
+	top: 5px;
+}
+
+#searchPlaceHeading{
+	text-align: center;
+	font-weight: bold;
+	font-size: 28px;
+	color: green;
+}
+
+#pac-input{
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+#currentPositionName{
+	font-weight: bold;
+	font-size: 20px;
+	color: #622C60;
+}
+
+#current-place{
+	width: 100%;
+	padding: 12px 20px;
+	margin-bottom: 1px;
+	display: inline-block;
+	border: 0;
+	caret-color: transparent;
+	font-size: 18px;
+}
+
+#submitRow{
+	text-align: center;
+}
+
+#startSearching{
+	width: 70%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 6px 10px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#startSearching:hover{
+	background-color: #45a049;
+}
+
+#bottomSpace{
+	margin-top: 100px;
+}

@@ -1,0 +1,252 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: Arial;
+	color: #737070;
+}
+
+#everythingInside{
+	width: 98%;
+	margin: auto;
+}
+
+#everythingFirst{
+	width: 15%;
+}
+
+#everythingMiddle{
+	width: 60%;
+	background-color: #EBFBF8;
+}
+
+#bigPhotoContainer{
+	text-align: center;
+}
+
+#bigPhoto{
+	width: 85%;
+	height: 450px;
+}
+
+#smallPhotoContainer{
+	width: 100%;
+	min-width: 450px;
+	min-height: 85px;
+	text-align: center;
+}
+
+#smallPhoto{
+	display: inline-block;
+}
+
+#previousContainer{
+	min-width: 100px;
+	min-height: 85px;
+	float: left;
+}
+
+#nextContainer{
+	min-width: 100px;
+	min-height: 85px;
+	float: right;
+}
+
+#previous,#next{
+	background-color: #4CAF50;
+	color: white;
+	padding: 8px 16px;
+	cursor: pointer;
+}
+
+#smallPhoto{
+	height: 85px;
+	margin: auto;
+	text-align: center;
+}
+
+#photoInside1,#photoInside2,#photoInside3,#photoInside4,#photoInside5{
+	width: 84px;
+	height: 84px;
+	cursor: pointer;
+}
+
+#photoInside1:hover,#photoInside2:hover,#photoInside3:hover,#photoInside4:hover,#photoInside5:hover{
+	opacity: 0.8;
+}
+
+#advertisementDetailsTable,#additionalInfoTable{
+	width: 100%;
+}
+
+#headingRow,#additionalHeadingRow{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #116A8F;
+}
+
+#headingRow td,#additionalHeadingRow td{
+	padding-bottom: 20px;
+}
+
+#advertisementDetailsTable td,#additionalInfoTable td{
+	height: 30px;
+}
+
+#adDetailsTableFirstColumn,#addInfoTableFirstColumn{
+	width: 25%;
+}
+
+#adDetailsTableFirstColspan,#adDetailsTableLastColspan,#addInfoTableFirstColspan,#addInfoTableLastColspan{
+	width: 50%;
+	vertical-align:top;
+}
+
+#adDetailsTableLeft,#adDetailsTableRight,#addInfoTableLeft,#addInfoTableRight{
+	width: 100%;
+}
+
+#adDetailsTableLeft td:nth-child(2),#addInfoTableLeft td:nth-child(2){
+	border-right: 5px solid #8CB4FC;
+}
+
+#adDetailsTableRightRightColumn{
+	min-width: 150px;
+}
+
+#addInfoTableRight td:last-child{
+	min-width: 5vw;
+}
+
+#available{
+	color: #0DA423;
+}
+
+#notConfirmed{
+	color: #D8A421;
+}
+
+#unavailable{
+	color: #F01A1A;
+}
+
+#fullLengthViewLink{
+	font-size: 10px;
+	text-decoration: none;
+	padding: 3px 6px;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+}
+
+.fullLengthViewDiv{
+	margin-top: 5px;
+	position: absolute;
+	max-width: 25vw;
+	min-height: 30px;
+	padding: 10px 10px;
+	background-color: #B6F9F6;
+	border: 3px solid #1850A7;
+	overflow-wrap: break-word;
+	color: #105608;
+	font-weight: 900;
+	border-radius: 10px;
+	font-family: Georgia, serif;
+	z-index: 2;
+}
+
+#closeButton{
+	float: right;
+	margin-top: 10%;
+	background-color: transparent;
+	color: red;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 20px;
+	font-weight: bold;
+	border: 2px solid red;
+}
+
+#googleMapLink{
+	text-decoration: none;
+}
+
+#googleMapLink:hover{
+	text-decoration: underline;
+}
+
+#paddingToAlign{
+	margin-left: 2px;
+}
+
+#postedOn{
+	font-size: 12px;
+	margin-left: 2px;
+}
+
+#fullAddress,#otherDescription{
+	max-width: 44.1vw;
+	overflow-wrap: break-word;
+}
+
+#sidenote_acotype,#sidenote_single,#sidenote_maxppl,#sidenote_scmoney{
+	
+	position:absolute;
+	visibility:hidden;
+	margin-left:10px;
+	max-width:25vw;
+	background-color:#F0E9D5;
+	margin-top:-8px;
+	padding: 15px 10px;
+	text-align: left;
+	z-index: 3;
+	
+}
+
+#button_acotype,#button_single,#button_maxppl,#button_scmoney{
+	
+	position:relative;
+	margin-left:5px;
+	margin-top:2px;
+	
+	font-size:12px;
+	border-radius: 50%;
+	background-color: white;
+	color: red;
+	border: 1px solid green;
+	
+	font-weight: bold;
+	z-index: 1;
+	
+}
+
+#button_acotype:hover + #sidenote_acotype,#button_single:hover + #sidenote_single,#button_maxppl:hover + #sidenote_maxppl,#button_scmoney:hover + #sidenote_scmoney{
+	
+	color:red;
+	visibility:visible;
+	
+}
+
+#noAdMessageRow{
+	text-align: center;
+	color: #FB408B;
+	font-size: 20px;
+}
+
+#noAdMessageRow td{
+	padding-top: 60px;
+}
+
+#backRow{
+	text-align: center;
+	height: 150px;
+}
+
+#backLink{
+	text-decoration: none;
+}
+
+#backLink:hover{
+	font-weight: bold;
+}

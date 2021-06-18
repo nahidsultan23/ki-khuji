@@ -1,0 +1,343 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: Arial;
+	color: #5C5C5C;
+}
+
+#everythingInside{
+	width: 98%;
+	margin: auto;
+}
+
+#LeftColumn{
+	width: 20%;
+	vertical-align:top;
+}
+
+#middleColumn{
+	width: 55%;
+	vertical-align:top;
+}
+
+#rightColumn{
+	vertical-align:top;
+}
+
+#sideNav:not(.sideNaveMainContent){
+	width: 80%;
+	min-height: 100vh;
+	overflow: hidden;
+	background-color: #d1d1d3;
+	color: #6c6c6c;
+}
+
+#sideNav a{
+	text-decoration: none;
+	color: #6c6c6c;
+}
+
+#siteName{
+	width: 100%;
+	min-height: 50px;
+	background-color: #e1e1e3;
+	color: #3e3e3e;
+	font-weight: bold;
+	text-align: center;
+	font-size: 25px;
+	border-bottom: 4px solid white;
+}
+
+#nameOnly{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#siteMessage{
+	width: 100%;
+	min-height: 50px;
+	background-color: #e1e1e3;
+	color: #535353;
+}
+
+#siteMessageOnly{
+	width: 90%;
+	padding: 8px 8px;
+}
+
+#propertiesOpen:not(.propertiesOpenMainContent),#propertiesClose:not(.propertiesCloseMainContent){
+	min-height: 50px;
+	cursor: pointer;
+	background-color: #e1e1e3;
+	border-top: 4px solid white;
+	border-bottom: 2px solid white;
+	text-align: center;
+}
+
+#propertiesOpen:hover:not(.propertiesOpenMainContent),#propertiesClose:hover:not(.propertiesCloseMainContent){
+	background-color: #d9d9da;
+}
+
+#propertiesList:not(.propertiesListMainContent){
+	height: 258px;
+	width: 100%;
+	overflow: hidden;
+	transition: 0.5s;
+	background-color: #e1e1e3;
+	border-bottom: 2px solid white;
+}
+
+#propertiesElement:not(.propertiesElementMainContent){
+	min-height: 50px;
+	width: 80%;
+	float: right;
+	background-color: #e1e1e3;
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+#propertiesElement:hover:not(.propertiesElementMainContent){
+	background-color: #bcbcbc;
+	color: white;
+	font-weight: bold;
+}
+
+#logoDiv,#propertiesNameDiv{
+	display: inline;
+}
+
+#logoDiv{
+	width: 30px;
+	height: 100%;
+}
+
+#propertiesLogo{
+	width: 25px;
+	height: 25px;
+	vertical-align: bottom;
+}
+
+#propertiesNameDiv{
+	margin-left: 8px;
+}
+
+#arrow{
+	margin-left: 5px;
+	font-size: 18px;
+}
+
+#open,#close{
+	margin-top: 10px;
+}
+
+#elementsName{
+	margin-top: 15px;
+	margin-left: 4px;
+}
+
+#searchPlace,#position{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#errorRow{
+	color: red;
+	text-align: center;
+}
+
+#errorRow td{
+	padding-bottom: 10px;
+}
+
+#searchPlaceHeading{
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	color: #116A8F;
+}
+
+#searchPlaceHeading td{
+	padding-bottom: 20px;
+}
+
+#searchInputRow,#currentPositionRow{
+	height: 50px;
+}
+
+#pac-input{
+	color: #5C5C5C;
+	width: 70%;
+	height: 40px;
+	padding-right: 8px;
+	padding-left: 40px;
+	font-size: 15px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background-image: url('../../logo/icons/search.png');
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+
+#pac-input:focus{
+	background-color: #f9ffcf;
+}
+
+#currentPositionName{
+	min-width: 150px;
+	color: #622C60;
+}
+
+#current-place{
+	color: #5C5C5C;
+	width: calc(100% - 10px);
+	font-size: 15px;
+	border: 0;
+	caret-color: transparent;
+}
+
+#map{
+	height: 70vh;
+	max-height: 450px;
+}
+
+#submitRow{
+	text-align: center;
+}
+
+#startSearching{
+	background-color: #026b54;
+	color: white;
+	padding: 12px 20px;
+	cursor: pointer;
+	font-size: 20px;
+	width: 50%;
+}
+
+#startSearching:hover{
+	background-color: #035543;
+}
+
+#siteNameMainContent{
+	width: 100%;
+	min-height: 50px;
+	background-color: #0b93da;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 25px;
+	border-bottom: 4px solid white;
+}
+
+#nameOnlyMainContent{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#siteMessageMainContent{
+	width: 100%;
+	background-color: #01a99c;
+}
+
+#siteMessageOnlyMainContent{
+	width: 90%;
+	padding: 15px 10px;
+	color: white;
+}
+
+#sidenote_flat,#sidenote_room,#sidenote_mess{
+	position:absolute;
+	visibility:hidden;
+	margin-left:10px;
+	max-width:25vw;
+	background-color:#F0E9D5;
+	margin-top:-8px;
+	padding: 15px 10px;
+	text-align: left;
+	z-index: 3;
+}
+
+#button_flat,#button_room,#button_mess{
+	position:relative;
+	margin-left:15px;
+	margin-top:2px;
+	
+	font-size:12px;
+	border-radius: 50%;
+	background-color: white;
+	color: red;
+	border: 1px solid green;
+	
+	font-weight: bold;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#button_flat:hover + #sidenote_flat,#button_room:hover + #sidenote_room,#button_mess:hover + #sidenote_mess{
+	color:red;
+	visibility:visible;
+	font-weight: 100;
+}
+
+#createNew{
+	border: 1px solid #048c6e;
+	width: 95%;
+	margin-left: 2.5%;
+	color: #048c6e;
+	background-color: white;
+	padding: 12px 16px;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+#createNew:hover{
+	color: white;
+	background-color: #048c6e;
+}
+
+.sideNaveMainContent{
+	width: 90%;
+	min-height: 100vh;
+	overflow: hidden;
+	background-color: #538d9d;
+}
+
+.propertiesOpenMainContent,.propertiesCloseMainContent{
+	min-height: 50px;
+	cursor: pointer;
+	background-color: #56a8be;
+	border-top: 4px solid white;
+	border-bottom: 2px solid white;
+	text-align: center;
+	color: #d3eb50;
+	font-weight: bold;
+}
+
+.propertiesOpenMainContent:hover,.propertiesCloseMainContent:hover{
+	background-color: #55a0b4;
+}
+
+.propertiesListMainContent{
+	height: 258px;
+	width: 100%;
+	overflow: hidden;
+	transition: 0.5s;
+	background-color: #56a8be;
+	border-bottom: 2px solid white;
+}
+
+.propertiesElementMainContent{
+	min-height: 50px;
+	width: 80%;
+	float: right;
+	background-color: #56a8be;
+	border-left: 2px solid white;
+	border-bottom: 2px solid white;
+	color: white;
+}
+
+.propertiesElementMainContent:hover{
+	background-color: #4a899a;
+	color: white;
+	font-weight: bold;
+}

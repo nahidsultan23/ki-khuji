@@ -1,0 +1,103 @@
+.topnav{
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+	background-color: #0b93da;
+	width: 98%;
+	margin: auto;
+	margin-top: 2px;
+}
+
+#logo{
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.topnav-left a{
+	margin-left: 40px;
+}
+
+.topnav-left a,.topnav-centered a,.topnav-right a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#lanButton{
+	margin-top: 9px;
+	margin-left: 5px;
+	background-color: #81368a;
+	border-radius: 10px;
+	border: 1px solid #81368a;
+	color: white;
+	text-align: center;
+	padding: 4px 20px;
+	text-decoration: none;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#lanButton:hover{
+	background-color: #a044ab;
+}
+
+#lanButton:active{
+	padding: 3px 20px;
+}
+
+.topnav-centered a:hover,.topnav-right a:hover{
+	background-color: #0881c0;
+}
+
+.topnav-centered a.active,.topnav-right a.active{
+	background-color: #056495;
+	color: white;
+}
+
+#clockTable{
+	width: 98%;
+	margin: auto;
+	height: 30px;
+}
+
+#clock{
+	color: #3DB5F0;
+	font-size: 18px;
+	font-weight: bold;
+	float: right;
+}
+
+#nonFooter{
+	min-height: calc(100vh - 220px);
+}
+
+#bottomSpace{
+	margin-top: 100px;
+}
+
+#bottomContents{
+	margin: auto;
+	width: 98%;
+	height: 60px;
+	background-color: #565454;
+	color: white;
+}
+
+#bottomContentsFirst{
+	width: 20%;
+}
+
+#bottomContentsSecond{
+	width: 60%;
+	text-align: center;
+}
+
+#helloEmail{
+	color: #B0FCF1;
+}

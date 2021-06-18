@@ -1,0 +1,45 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+#bigLogoTable{
+	margin: auto;
+	margin-top: 5px;
+}
+
+#bigLogo{
+	width: 150px;
+	height: 150px;
+}
+
+#registerTable{
+	margin: auto;
+	margin-top: -10px;
+	font-size: 18px;
+	min-width: 500px;
+	width: 40%;
+	border-spacing: 15px;
+}
+
+#backRow{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#backLink{
+	text-decoration: none;
+}
+
+#backLink:hover{
+	font-weight: bold;
+}

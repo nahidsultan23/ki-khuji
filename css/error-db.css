@@ -1,0 +1,22 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+#error{
+	margin: auto;
+	text-align: center;
+	margin-top: 10%;
+	font-size: 50px;
+	width: 50%;
+}
+
+#description{
+	color: red;
+}
+
+#bottomSpace{
+	margin-top: 100px;
+}

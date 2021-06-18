@@ -1,0 +1,236 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+#officespaceInfo{
+	margin: auto;
+	margin-top: 5px;
+	font-size: 18px;
+	width: 55%;
+}
+
+#firstColumn{
+	width: 45%;
+}
+
+#secondColumn{
+	width: 55%;
+	min-width: 460px;
+}
+
+#heading{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	color: green;
+	height: 80px;
+}
+
+.ui-datepicker select.ui-datepicker-year{
+	width: 50%;
+}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
+	position:absolute;
+	top: 0;
+	width: 0;
+	height: 0;
+}
+
+input[type=text],input[type=email],select{
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+input[type=text]:focus,input[type=email]:focus,textarea:focus{
+	border-color: blue;
+	background-color: #F3F8A7;
+}
+
+#contact-no{
+	width: 200px;
+}
+
+input[type=checkbox] {
+	transform: scale(1.2);
+}
+
+#rental-price-checkbox,#security-money-checkbox{
+	margin-left: 20px;
+}
+
+textarea {
+	width: 350px;
+	height: 150px;
+	resize: none;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.sidenote{
+	position: absolute;
+	margin-left: 15px;
+	background-color: red;
+	color: white;
+	padding: 3px 3px;
+}
+
+#additionalHeading{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	color: green;
+	line-height: 50px;
+}
+
+#allForms{
+	margin-left: -20px;
+}
+
+#photos{
+	padding-top: 20px;
+}
+
+#uploadForm_1,#uploadForm_2,#uploadForm_3,#uploadForm_4,#uploadForm_5{
+	display:inline-block;
+	margin-left: 20px;
+}
+
+#upload-btn-wrapper_1,#upload-btn-wrapper_2,#upload-btn-wrapper_3,#upload-btn-wrapper_4,#upload-btn-wrapper_5{
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+}
+	
+.btn_1,.btn_2,.btn_3,.btn_4,.btn_5{
+	border: 2px solid gray;
+	color: gray;
+	background-color: white;
+	padding: 8px 8px;
+	height: 80px;
+	width: 80px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#upload-btn-wrapper_1 input[type=file],#upload-btn-wrapper_2 input[type=file],#upload-btn-wrapper_3 input[type=file],#upload-btn-wrapper_4 input[type=file],#upload-btn-wrapper_5 input[type=file]{
+	font-size: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+
+#progressbarContainer_1,#progressbarContainer_2,#progressbarContainer_3,#progressbarContainer_4,#progressbarContainer_5{
+	width: 80px;
+	height: 80px;
+	border: 2px solid gray;
+	color: gray;
+}
+
+#progressBar_1,#progressBar_2,#progressBar_3,#progressBar_4,#progressBar_5{
+	width: 80px;
+	height: 10px;
+	margin-top: 70px;
+	border: none;
+}
+
+#uploadedImage_1,#uploadedImage_2,#uploadedImage_3,#uploadedImage_4,#uploadedImage_5{
+	width: 80px;
+	height: 80px;
+}
+
+#uploadedImage_1:hover,#uploadedImage_2:hover,#uploadedImage_3:hover,#uploadedImage_4:hover,#uploadedImage_5:hover{
+	opacity: 0.4;
+}
+
+#remove_1,#remove_2,#remove_3,#remove_4,#remove_5{
+	position: absolute;
+	margin-left: -30px;
+	display: inline-block;
+	display: none;
+}
+
+#uploadedImage_1:hover+#remove_1,#remove_1:hover,#uploadedImage_2:hover+#remove_2,#remove_2:hover,#uploadedImage_3:hover+#remove_3,#remove_3:hover,#uploadedImage_4:hover+#remove_4,#remove_4:hover,#uploadedImage_5:hover+#remove_5,#remove_5:hover{
+    display: inline-block;
+}
+
+#submitRow{
+	text-align: center;
+}
+
+#submit{
+	width: 70%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 12px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#submit:hover{
+	background-color: #45a049;
+}
+
+#backRow{
+	text-align: center;
+	line-height: 50px;
+}
+
+#backLink{
+	text-decoration: none;
+}
+
+#backLink:hover{
+	font-weight: bold;
+}
+
+#date,#rent,#sc,#address,#cn,#email,#flat,#floor,#fl-sz,#num-rm,#num-wsrm,#tot-floor,#oth-des{
+	visibility: hidden;
+}
+
+#sidenote_avfor,#sidenote_messuse,#sidenote_maxppl,#sidenote_scmoney{
+	
+	position:absolute;
+	visibility:hidden;
+	margin-left:35px;
+	max-width:300px;
+	background-color:#F0E9D5;
+	margin-top:-8px;
+	padding: 15px 10px;
+	text-align: left;
+	z-index: 2;
+	
+}
+
+#button_scmoney{
+	
+	position:relative;
+	margin-left:5px;
+	margin-top:2px;
+	
+	font-size:12px;
+	background-color: #E70C10;
+	color:white;
+	font-weight: bold;
+	z-index: 1;
+	
+}
+
+#button_scmoney:hover + #sidenote_scmoney{
+	
+	color:red;
+	visibility:visible;
+	
+}

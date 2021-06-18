@@ -1,0 +1,133 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+#roomInfo{
+	margin: auto;
+	margin-top: 5px;
+	font-size: 18px;
+	width: 55%;
+}
+
+#firstColumn{
+	width: 45%;
+}
+
+#secondColumn{
+	width: 55%;
+	min-width: 420px;
+}
+
+#heading{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	color: green;
+	line-height: 50px;
+}
+
+.ui-datepicker select.ui-datepicker-year{
+	width: 50%;
+}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
+	position:absolute;
+	top: 0;
+	width: 0;
+	height: 0;
+}
+
+input[type=text],input[type=email],select{
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+input[type=text]:focus,input[type=email]:focus,textarea:focus{
+	border-color: blue;
+	background-color: #F3F8A7;
+}
+
+#contact-no{
+	width: 200px;
+}
+
+input[type=checkbox] {
+	transform: scale(1.2);
+}
+
+#rental-price-checkbox,#security-money-checkbox{
+	margin-left: 20px;
+}
+
+textarea {
+	width: 350px;
+	height: 150px;
+	resize: none;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.sidenote{
+	position: absolute;
+	margin-left: 15px;
+	background-color: red;
+	color: white;
+	padding: 3px 3px;
+}
+
+#additionalHeading{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	color: green;
+	line-height: 50px;
+}
+
+#submitRow{
+	text-align: center;
+}
+
+#submit{
+	width: 70%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 12px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#submit:hover{
+	background-color: #45a049;
+}
+
+#backRow{
+	text-align: center;
+	line-height: 50px;
+}
+
+#backLink{
+	text-decoration: none;
+}
+
+#backLink:hover{
+	font-weight: bold;
+}
+
+#date,#av-fo,#mx-ppl,#rent,#sc,#address,#cn,#email,#flat,#floor,#fl-sz,#rm-sz,#num-rm,#num-wsrm,#num-bal,#tot-floor,#oth-des{
+	visibility: hidden;
+}
+
+#bottomSpace{
+	margin-top: 100px;
+}
